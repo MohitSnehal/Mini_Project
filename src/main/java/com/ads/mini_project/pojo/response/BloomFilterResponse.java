@@ -11,5 +11,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class BloomFilterResponse {
-    private String table;
+    private double falsePositivePercentage;
 }

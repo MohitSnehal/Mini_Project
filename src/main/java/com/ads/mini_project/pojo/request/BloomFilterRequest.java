@@ -6,5 +6,6 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class BloomFilterRequest {
-    private String str;
+    private int logNoOfBits;
+    private int noOfHashes;
 }

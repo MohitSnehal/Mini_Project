@@ -28,7 +28,7 @@ public class BloomFilter {
     }
 
     public BloomFilter(int log2noBits, int noHashes) {
-        if (log2noBits < 1 || log2noBits > 31)
+        if (log2noBits < 1 || log2noBits > 23)
             throw new IllegalArgumentException("Invalid number of bits");
         if (noHashes < 1 || noHashes > MAX_HASHES)
             throw new IllegalArgumentException("Invalid number of hashes");

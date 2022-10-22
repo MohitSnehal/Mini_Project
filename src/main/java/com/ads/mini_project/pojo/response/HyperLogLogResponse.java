@@ -11,5 +11,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class HyperLogLogResponse {
     private long ndv;
-    private long ndvFromHLL;
+    private long ndvFromHLL64;
+    private long ndvFromHLL32;
 }

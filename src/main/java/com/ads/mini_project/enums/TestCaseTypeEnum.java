@@ -8,7 +8,9 @@ public enum TestCaseTypeEnum {
     REPEATING(1, "test_case_1.in"),
     TW0_MILLION_AND_REPEATING(2, "test_case_2.in"),
     FOUR_MILLION_AND_REPEATING(3, "test_case_3.in"),
-    TEN_MILLION_AND_REPEATING(4, "test_case_4.in");
+    TEN_MILLION_AND_REPEATING(4, "test_case_4.in"),
+    SMALLEST_DATA_SET(5, "test_case_5.in");
+    
 
     int code;
     String fileName;
